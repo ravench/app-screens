@@ -12,7 +12,8 @@ here so the app repositories' history stays small.
 - `archive/kaliberfinder-pr-screens`, `archive/schiesstagebuch-pr-screens`: the old `pr-screens`
   branches of the app repositories (until 6 November 2026), same commits. Older comments link here.
 
-The images are plain files, not Git LFS: the comments link them through raw.githubusercontent.com,
+The images are plain files, not Git LFS: newer comments link them as
+`https://github.com/ravench/app-screens/raw/<commit>/…`, older ones through raw.githubusercontent.com,
 which does not serve LFS files. Do not delete or rewrite these branches, or the images in old
 comments break. The workflows push with the deploy key stored in each app repository's
 `SCREENS_DEPLOY_KEY` secret.
